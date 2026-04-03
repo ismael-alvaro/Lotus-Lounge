@@ -51,9 +51,9 @@ Este repositorio representa um projeto de portifolio que demonstra:
 
 ### Time
 - Andre Lima
+- Ismael Alvaro
 - Lucas Leal
 - Maria Gabriella
-- Ismael Alvaro
 - Matheus Braglia
 - Milla Rwana
 - Rayssa Vitoria
@@ -108,9 +108,9 @@ This repository is presented as a portfolio project and showcases:
 
 ### Team
 - Andre Lima
+- Ismael Alvaro
 - Lucas Leal
 - Maria Gabriella
-- Ismael Alvaro
 - Matheus Braglia
 - Milla Rwana
 - Rayssa Vitoria
