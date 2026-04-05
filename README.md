@@ -1,64 +1,8 @@
 # Lotus Lounge
 
-PT-BR | [EN](#EN)
+EN | [PT-BR](#PT-BR)
 
 <img width="1280" height="720" alt="Gameplay de Lotus Lounge" src="https://github.com/user-attachments/assets/c8aecb19-8f86-401c-9775-b741e3ae4c28" />
-
-## PT-BR
-
-### Sobre o projeto
-**Lotus Lounge** e um jogo 2D feito em **C** com **Raylib**, com foco em arquitetura modular, gameplay responsiva e fundamentos de desenvolvimento de jogos em baixo nivel.
-
-Este repositorio representa um projeto de portifolio que demonstra:
-- Organizacao de codigo em modulos (`menu`, `game`, `player`, `phaseOne`)
-- Estrutura clara de loop principal, estados e transicoes
-- Integracao de renderizacao, input e audio com Raylib
-- Base preparada para expansao de fases e mecanicas
-
-### Stack
-- **Linguagem:** C
-- **Framework:** Raylib
-- **Build:** Makefile (`mingw32-make`)
-- **Ambiente:** VS Code
-
-### Estrutura do repositorio
-```text
-.
-|- assets/      # imagens, fontes e recursos visuais
-|- data/        # anotacoes e suporte de dados
-|- saves/       # pasta reservada para saves
-|- utils/       # utilitarios e notas
-|- main.c       # ponto de entrada
-|- menu.c       # telas e navegacao de menu
-|- game.c/h     # estado principal e logica do jogo
-|- player.c     # movimentacao e comportamento do jogador
-|- phaseOne.c   # primeira fase
-`- Makefile     # compilacao
-```
-
-### Como executar
-1. Garanta que o Raylib esteja instalado e com caminho configurado no `Makefile`.
-2. Compile em modo debug:
-   ```bash
-   mingw32-make RAYLIB_PATH=C:/raylib/raylib PROJECT_NAME=main OBJS=main.c BUILD_MODE=DEBUG
-   ```
-3. Execute o binario gerado.
-
-### Destaques tecnicos
-- Separacao de responsabilidades por arquivo para facilitar manutencao
-- Pipeline simples e eficiente para prototipacao de gameplay
-- Fundacao ideal para evoluir para novas fases, inimigos e sistemas
-
-### Time
-- Andre Lima
-- Ismael Alvaro
-- Lucas Leal
-- Maria Gabriella
-- Matheus Braglia
-- Milla Rwana
-- Rayssa Vitoria
-
----
 
 <a id="EN"></a>
 ## EN
@@ -107,6 +51,64 @@ This repository is presented as a portfolio project and showcases:
 - Strong base for adding new levels, enemies, and mechanics
 
 ### Team
+- Andre Lima
+- Ismael Alvaro
+- Lucas Leal
+- Maria Gabriella
+- Matheus Braglia
+- Milla Rwana
+- Rayssa Vitoria
+
+---
+
+## PT-BR
+
+[EN](#Lotus-Lounge) | PT-BR
+
+### Sobre o projeto
+**Lotus Lounge** e um jogo 2D feito em **C** com **Raylib**, com foco em arquitetura modular, gameplay responsiva e fundamentos de desenvolvimento de jogos em baixo nivel.
+
+Este repositorio representa um projeto de portifolio que demonstra:
+- Organizacao de codigo em modulos (`menu`, `game`, `player`, `phaseOne`)
+- Estrutura clara de loop principal, estados e transicoes
+- Integracao de renderizacao, input e audio com Raylib
+- Base preparada para expansao de fases e mecanicas
+
+### Stack
+- **Linguagem:** C
+- **Framework:** Raylib
+- **Build:** Makefile (`mingw32-make`)
+- **Ambiente:** VS Code
+
+### Estrutura do repositorio
+```text
+.
+|- assets/      # imagens, fontes e recursos visuais
+|- data/        # anotacoes e suporte de dados
+|- saves/       # pasta reservada para saves
+|- utils/       # utilitarios e notas
+|- main.c       # ponto de entrada
+|- menu.c       # telas e navegacao de menu
+|- game.c/h     # estado principal e logica do jogo
+|- player.c     # movimentacao e comportamento do jogador
+|- phaseOne.c   # primeira fase
+`- Makefile     # compilacao
+```
+
+### Como executar
+1. Garanta que o Raylib esteja instalado e com caminho configurado no `Makefile`.
+2. Compile em modo debug:
+   ```bash
+   mingw32-make RAYLIB_PATH=C:/raylib/raylib PROJECT_NAME=main OBJS=main.c BUILD_MODE=DEBUG
+   ```
+3. Execute o binario gerado.
+
+### Destaques tecnicos
+- Separacao de responsabilidades por arquivo para facilitar manutencao
+- Pipeline simples e eficiente para prototipacao de gameplay
+- Fundacao ideal para evoluir para novas fases, inimigos e sistemas
+
+### Time
 - Andre Lima
 - Ismael Alvaro
 - Lucas Leal
